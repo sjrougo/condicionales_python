@@ -30,3 +30,24 @@ contenido. Recomendamos pensar bien este problema de lógica con un lápiz y pap
 
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
+print("Ingrese tres valores de temperatura, cada uno seguido de un enter:")
+temp1 = float(input())
+temp2 = float(input())
+temp3 = float(input())
+promedio = (temp1+temp2+temp3)/3
+promedio = round(promedio, 2)
+
+if temp1>temp2 and temp1>temp3:
+    print("La temperatura mayor es: ", temp1)
+elif temp2>temp1 and temp2>temp3:
+    print("La temperatura mayor es: ", temp2)
+elif temp3>temp1 and temp3>temp2:
+    print("La temperatura mayor es: ", temp3)
+
+if temp1<temp2 and temp1<temp3:
+    print("La temperatura menor es: ", temp1)
+elif temp2<temp1 and temp2<temp3:
+    print("La temperatura menor es: ", temp2)
+elif temp3<temp1 and temp3<temp2:
+    print("La temperatura menor es: ", temp3)
+print("La temperatuda promedio es de: ", promedio)
