@@ -28,10 +28,10 @@ elif numero_2>numero_1 :
 # Imprima el resultado en cada caso
 if numero_1==0 :
     print("El primer número ingresado es 0")
-elif numero_1%2==0 :
-    print("El primer número ingresado es par.")
-elif numero_1%2!=0 :
-    print("El primer número ingresado es impar")
+elif numero_1>0 :
+    print("El primer número ingresado es positivo.")
+elif numero_1<0 :
+    print("El primer número ingresado es negativo")
 
 # Verifique si el numero_1 es mayor a 0 y menor a 100
 # Imprima en pantalla si se cumple o no la condición
